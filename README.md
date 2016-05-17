@@ -5,9 +5,13 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - 2.3.0
 
 * System dependencies
+
+	curl get.pow.cx | sh
+	cd ~/.pow
+	ln -s /path/to/myapp
 
 * Configuration
 

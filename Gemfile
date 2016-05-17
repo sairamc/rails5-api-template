@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 ruby '2.3.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '>= 5.0.0.rc1', '< 5.1'
+# Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
+gem 'rack-cors'
+gem 'rack-attack'
+gem 'active_model_serializers'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -32,9 +36,6 @@ gem "redis-rails", github: 'redis-store/redis-rails'
 gem 'redis-namespace'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
-# Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-gem 'rack-cors'
-gem 'rack-attack'
 # Cronjob schedulers that can be coded in the
 gem 'whenever', :require => false
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
