@@ -1,0 +1,1 @@
+$redis = Redis::Namespace.new("api-template", :redis => Redis.new)
