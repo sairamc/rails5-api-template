@@ -5,7 +5,6 @@ gem 'rails', '>= 5.0.0.rc1', '< 5.1'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 gem 'rack-attack'
-gem 'active_model_serializers'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -30,6 +29,8 @@ gem 'mysql2'
 gem 'puma', '~> 3.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.0'
+# gem 'active_model_serializers'
+gem 'jsonapi-resources', :git => 'https://github.com/cerebris/jsonapi-resources.git'
 # Use Redis adapter to run Action Cable in production
 gem 'redis'
 gem "redis-rails", github: 'redis-store/redis-rails'
@@ -40,8 +41,8 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'whenever', :require => false
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-
+# Simple, robust and scaleable authorization system
+gem 'pundit'
 # gem 'turbolinks', '~> 2.5.3'
 # gem 'sidekiq', '~> 3.3.4'
 # gem 'sitemap_generator', '~> 5.0.5'
