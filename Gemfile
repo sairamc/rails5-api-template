@@ -5,6 +5,7 @@ gem 'rails', '>= 5.0.0.rc1', '< 5.1'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 gem 'rack-attack'
+gem 'rails_12factor'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -43,8 +44,32 @@ gem 'whenever', :require => false
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Simple, robust and scaleable authorization system
 gem 'pundit'
+
+# gem 'devise_token_auth'
 # gem 'turbolinks', '~> 2.5.3'
 # gem 'sidekiq', '~> 3.3.4'
+# gem "better_errors" gem "binding_of_caller"
+# gem 'quiet_assets', group: :development
+# gem 'airbrake', '~> 5.4' # https://github.com/airbrake/airbrake/blob/master/README.md
 # gem 'sitemap_generator', '~> 5.0.5'
 # gem 'favicon_maker', '~> 1.3'
 # gem 'kaminari', '~> 0.16.3'
+# gem 'le' (log entries)
+# gem 'rmagick'
+# gem 'lograge'
+# gem 'logstash-event'
+# gem 'newrelic_rpm'
+# gem 'geokit'
+# gem 'google_timezone'
+# gem 'dragonfly'
+# gem 'stripe'
+# gem 'stripe_event'
+# gem 'public_activity'
+# gem 'pusher'
+# gem "acts_as_follower"
+# gem 'mandrill-api'
+# gem 'gibbon' # mailchimp gem
+# gem 'acts_as_commentable'
+# gem 'friendly-id' # slugs
+# gem 'search_cop' # full text search
+
