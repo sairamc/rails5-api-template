@@ -21,7 +21,7 @@ test:
   username: root
   password: password
   database: rails5_test
-  
+
 production:
   <<: *default
   host: <%= ENV["MYSQL_HOST"] %>
@@ -29,4 +29,4 @@ production:
   username: <%= ENV["MYSQL_USER"] %>
   password: <%= ENV["MYSQL_PASS"] %>
   database: <%= ENV["MYSQL_DATABASE"] %>
-  
+
