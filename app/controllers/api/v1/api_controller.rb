@@ -1,5 +1,3 @@
-# app/controllers/api/v1/api_controller.rb
-
 module Api::V1
   class ApiController < ApplicationController
     rescue_from Pundit::NotAuthorizedError, with: :reject_forbidden_request

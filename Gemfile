@@ -8,7 +8,7 @@ gem 'rails_12factor'
 
 gem 'mysql2'
 gem 'puma', '~> 3.0'
-gem 'jsonapi-resources', :git => 'https://github.com/cerebris/jsonapi-resources.git'
+gem 'jsonapi-resources', github: 'cerebris/jsonapi-resources'
 
 # Use Redis adapter to run Action Cable in production
 gem 'redis'

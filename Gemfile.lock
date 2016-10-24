@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/cerebris/jsonapi-resources.git
+  revision: 74cd0a944088931bc6a8c904b38780d6c273f620
+  specs:
+    jsonapi-resources (0.9.0.pre)
+      activerecord (>= 4.1)
+      concurrent-ruby
+      railties (>= 4.1)
+
+GIT
   remote: git://github.com/redis-store/redis-rails.git
   revision: f17b45f80d39d41703444e07843f68d290628f41
   specs:
@@ -6,15 +15,6 @@ GIT
       redis-actionpack (~> 5.0.0)
       redis-activesupport (~> 5.0.0)
       redis-store (~> 1.2.0)
-
-GIT
-  remote: https://github.com/cerebris/jsonapi-resources.git
-  revision: 74cd0a944088931bc6a8c904b38780d6c273f620
-  specs:
-    jsonapi-resources (0.9.0.pre)
-      activerecord (>= 4.1)
-      concurrent-ruby
-      railties (>= 4.1)
 
 GEM
   remote: https://rubygems.org/
